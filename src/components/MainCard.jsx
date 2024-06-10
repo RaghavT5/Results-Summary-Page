@@ -4,7 +4,7 @@ const MainCard = () => {
   return (
     <div>
       <div className="flex h-screen w-full items-center justify-center place-items-center">
-        <div className="relative h-[58%] w-[20.5rem] rounded-[2rem] bg-gradient-to-b from-light-slate-blue to-light-royal-blue ">
+        <div className="relative h-[58%] w-[20.5rem] rounded-[2rem] bg-gradient-to-b from-light-slate-blue to-light-royal-blue">
           <div className="grid place-items-center">
             <h1 className="mt-7 font-hanken text-light-lavender text-2xl font-medium">
               Your Result
@@ -26,7 +26,7 @@ const MainCard = () => {
             </div>
           </div>
         </div>
-        <div className="h-[58%] w-[21.75rem] rounded-r-[2rem] bg-white -ml-5">
+        <div className="h-[58%] w-[21.75rem] rounded-r-[2rem] bg-white -ml-5 shadow-xl shadow-pale-blue">
           <h2 className="mt-7 font-hanken text-dark-grey-blue text-2xl font-bold mx-11">
             Summary
           </h2>
@@ -90,6 +90,11 @@ const MainCard = () => {
                 <span className="text-dark-gray-blue/40">/ 100</span>
               </div>
             </div>
+          </div>
+          <div className="flex place-items-center justify-center">
+            <button className="bg-dark-gray-blue hover:bg-gradient-to-b hover:from-light-slate-blue hover:to-light-royal-blue rounded-full text-white text-lg px-24 py-4 font-bold font-hanken">
+              Continue
+            </button>
           </div>
         </div>
       </div>
