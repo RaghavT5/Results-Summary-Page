@@ -35,7 +35,7 @@ const MainCard = () => {
               <div className="flex items-center">
                 <img
                   className="mx-3"
-                  src="public/assets/images/icon-reaction.svg"
+                  src="/assets/images/icon-reaction.svg"
                   alt="Reaction Icon"
                 />
                 <p className="text-light-red">Reaction</p>
@@ -50,7 +50,7 @@ const MainCard = () => {
               <div className="flex items-center">
                 <img
                   className="mx-3"
-                  src="public/assets/images/icon-memory.svg"
+                  src="/assets/images/icon-memory.svg"
                   alt="Memory Icon"
                 />
                 <p className="text-orangey-yellow">Memory</p>
@@ -65,7 +65,7 @@ const MainCard = () => {
               <div className="flex items-center">
                 <img
                   className="mx-3"
-                  src="public/assets/images/icon-verbal.svg"
+                  src="/assets/images/icon-verbal.svg"
                   alt="Verbal Icon"
                 />
                 <p className="text-green-teal">Verbal</p>
@@ -80,7 +80,7 @@ const MainCard = () => {
               <div className="flex items-center">
                 <img
                   className="mx-3"
-                  src="public/assets/images/icon-visual.svg"
+                  src="/assets/images/icon-visual.svg"
                   alt="Visual Icon"
                 />
                 <p className="text-cobalt-blue">Visual</p>
