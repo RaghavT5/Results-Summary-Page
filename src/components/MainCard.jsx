@@ -3,7 +3,7 @@ import React from "react";
 const MainCard = () => {
   return (
     <div>
-      <div className="flex h-screen w-full items-center justify-center place-items-center">
+      <div className="flex flex-col md:flex-row h-screen w-full items-center justify-center place-items-center ">
         <div className="relative h-[58%] w-[20.5rem] rounded-[2rem] bg-gradient-to-b from-light-slate-blue to-light-royal-blue">
           <div className="grid place-items-center">
             <h1 className="mt-7 font-hanken text-light-lavender text-2xl font-medium">
